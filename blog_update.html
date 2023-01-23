@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Update Blog/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="box header">
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <h1>Blog Edit</h1>
+            
+        </div>
+        <div class="main-card"> 
+            
+            
+            <div class="container-card">
+                <h1>Welcome Innocent</h1>
+                
+                <div class="form">
+                    <form action="#">
+                        <div class="info">
+                            <h4>Blog Title:</h4>
+                            <input type="text" name="title" id="blog-title" placeholder="e.g Javascript for web development">
+                        </div>
+                        <div class="info">
+                            <h4>Blog Content:</h4>
+                            <input type="text" name="content" id="blog-content" placeholder="...">
+                        </div>
+                        <div class="info">
+                            <h4>Blog Image:</h4>
+                            <input type="file" name="blog-img" id="blog-image">
+                        </div>
+
+                        <button class="blog-submit">Update</button>
+                        
+                        
+                        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <div class="box aside"> 
+            <nav id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class="nav-links">
+                    <li class="menu-item1"><a href="/Dashboard/index.html">Dashboard</a></li>
+                        <li class="menu-item2"><a href="#">Profile</a></li>
+                        <li class="menu-item4"><a href="/Active Blogs/index.html">Blog</a></li>
+                        
+                </ul>
+
+                <a class="sign-out" href="/Home/index.html">Sign-out</a>
+            </nav>
+        </div>
+        
+        <div class="box suggestions">Quick Actions</div>
+        <div class="box footer"><div class="legal">"Legal statements"</div>
+        <div class="help">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div></div>
+        
+    </div>
+    <script src="/js-file.js"></script>
+</body>
+</html>
